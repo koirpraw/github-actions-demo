@@ -3,9 +3,9 @@ name: CI
 on: [push]
 
 jobs:
-    build:
-        runs-in: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-        steps:
-            - name: Checkout code
-            uses: actions/checkout@v4
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4

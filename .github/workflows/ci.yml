@@ -1,0 +1,11 @@
+name: CI
+
+on: [push]
+
+jobs:
+    build:
+        runs-in: ubuntu-latest
+
+        steps:
+            - name: Checkout code
+            uses: actions/checkout@v4
